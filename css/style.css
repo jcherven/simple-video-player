@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oxygen Mono";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  margin: 0;
+  background-color: #666;
+}
+
+h1 {
+  color: #fff;
+}
+
+.screen {
+  cursor: pointer;
+  width: 50%;
+  background-color: #000 !important;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .screen,
+  .controls {
+    width: 90%; 
+  }
+}
